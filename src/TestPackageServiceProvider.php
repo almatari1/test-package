@@ -2,9 +2,9 @@
 
 namespace Almatari1\TestPackage;
 
+use Almatari1\TestPackage\Commands\TestPackageCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Almatari1\TestPackage\Commands\TestPackageCommand;
 
 class TestPackageServiceProvider extends PackageServiceProvider
 {

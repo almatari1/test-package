@@ -2,9 +2,9 @@
 
 namespace Almatari1\TestPackage\Tests;
 
+use Almatari1\TestPackage\TestPackageServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Almatari1\TestPackage\TestPackageServiceProvider;
 
 class TestCase extends Orchestra
 {
